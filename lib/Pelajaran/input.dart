@@ -12,7 +12,7 @@ class _InputSelectionState extends State<InputSelection> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: EdgeInsets.all(12),
+      padding: const EdgeInsets.all(12),
       child: Column(
         children: [
           TextField(controller: nama,
@@ -21,14 +21,14 @@ class _InputSelectionState extends State<InputSelection> {
               setState(() {
               });
             },
-            decoration: InputDecoration(
+            decoration: const InputDecoration(
               border:
               OutlineInputBorder(),
               labelText: 'Username',
             )
           ),
           Text(nama.text),
-          TextField(
+          const TextField(
             obscureText: true,
             decoration: InputDecoration(
               border:

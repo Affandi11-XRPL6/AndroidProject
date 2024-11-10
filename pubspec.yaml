@@ -62,6 +62,22 @@ flutter:
   assets:
     - assets/download (1).jpeg
     - assets/download (2).jpeg
+    - assets/zACH.jpeg
+    - assets/IconRP-removebg-preview.png
+    - assets/Food/52c0c1c2-e184-4065-be44-3d5f036ed7f9.jpeg
+    - assets/Food/Air Fryer Steak_ A Quick and Easy Recipe for a….jpeg
+    - assets/Food/Sate.jpeg
+    - assets/Food/The Best All-You-Can-Eat Buffet in Every State.jpeg
+    - assets/Travel/78 Stunning Mediterranean Houses Everyone Dreams About.jpeg
+    - assets/Travel/Premium Photo _ Mount Bromo volcano (Gunung Bromo) during sunrise from viewpoint on Mount Penanjakan.jpeg
+    - assets/Travel/Raja Ampat, Indonesia✨.jpeg
+    - assets/Travel/sunset.jpeg
+    - assets/soccer/consta.jpeg
+    - assets/soccer/Wasit.jpeg
+    - assets/Band/ax7.jpeg
+    - assets/Band/gnr.jpeg
+    - assets/Band/queen.jpeg
+  
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
 

@@ -14,7 +14,7 @@ class _DateWidgetState extends State<DateWidget> {
    Future<Null> _selectDate (BuildContext context) async {
    final DateTime? picked = await showDatePicker(
       context: context,
-      initialDate: selectedDate,
+      initialDate: DateTime.now(),
       firstDate: DateTime(2015, 8),
       lastDate: DateTime(2101),
     );
@@ -26,7 +26,28 @@ class _DateWidgetState extends State<DateWidget> {
   }
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Center(
+      child: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: <Widget>[
+          Text(
+            widget.title!=null ? widget.title! : 'selectedDate',
+            style: const TextStyle(fontSize: 20),
+          ),
+          ElevatedButton(onPressed: () => {
+            _selectDate(context),
+            print(
+              'selectedDate.day + selectedDate.month + selectedDate.year' ,
+            )
+          },
+          child: const Text('Select Date'),
+          ),
+        ],
+       
+      
+      ),
+    );
+  
     
   }
 }
